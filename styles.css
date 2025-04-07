@@ -38,7 +38,7 @@ body{
 /* Header Text */
 .centered {
     color: whitesmoke;
-    background-color: black;
+    background-color: darkblue;
     border-radius: 10px;
     font-size: 80px;
     font-family: Papyrus;
@@ -48,12 +48,7 @@ body{
     transform: translate(-50%, -50%);
 }
 
-/* Div container for each image/caption */
-.imageAndParagraph{
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 75px;
-}
+
 
 /* css for each image */
 .paragraphImage{
@@ -66,6 +61,26 @@ body{
     height: 300px;
 }
 
+/* Div container for each image/caption */
+.imageAndParagraph{
+    display: flex;
+    align-items: center;
+    margin-bottom: 75px;
+    background-color: lightblue;
+}
+
+.captionContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 600px;
+    margin-right: 100px;
+}
+
+.captionTitle{
+    font-size: xx-large;
+}
+
 /* caption for each El Nino related image */
 .image_caption{
     color: black;
@@ -73,9 +88,23 @@ body{
     flex-direction: column;
     text-align: left;
     margin: 0;
+    margin-right: 100px;
+    max-width: 600px;
     margin-bottom: 10px;
 }
 
+
+/* footer */
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 0 10px 0 0px;
+    margin: 0 10px 0 0 px;
+    border-radius: 8px;
+    background-color: darkblue;
+    color: whitesmoke;
+}
 
 
 /* Page content */
