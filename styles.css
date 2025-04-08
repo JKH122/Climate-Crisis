@@ -117,3 +117,65 @@ body{
 .content {
     padding: 16px;
 }
+
+@media (max-width: 768px) {
+
+    #navbar {
+        position: sticky;
+        top: 0;
+        background-color: darkblue;
+    }
+
+    #navbar a {
+        float: none;
+        display: block;
+        text-align: left;
+        padding: 10px;
+    }
+
+    
+    .headerImage {
+        height: 150px;
+        margin-bottom: 20px;
+    }
+
+    .centered {
+        font-size: 40px;
+        top: 30%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .imageAndParagraph {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .paragraphImage {
+        margin: 10px 0;
+        width: 90%;
+        height: auto;
+        float: none;
+    }
+
+    .captionContainer {
+        margin: 10px;
+        max-width: 90%;
+    }
+
+    .image_caption {
+        margin: 10px 0;
+        max-width: 90%;
+    }
+
+    .footer {
+
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+        font-size: 14px;
+
+    }
+}
